@@ -4,7 +4,7 @@
 
 ---
 
-## SUMMARY
+## Summary
 
 ML & Software Engineer with deep expertise in speech and language systems on Apple platforms.  Specializes in post-training of small, on-device models — on-policy distillation (OPD), rejection-sampling fine-tuning (RSFT), and reinforcement learning.
 
@@ -12,7 +12,7 @@ Interest areas are in advancing private, local, on-device AI.
 
 ---
 
-## WORK EXPERIENCE
+## Work Experience
 
 ### Apple Inc. — Sr. Machine Learning Engineer  
 **Cupertino, CA**  
@@ -48,7 +48,7 @@ Interest areas are in advancing private, local, on-device AI.
 
 ---
 
-## EDUCATION
+## Education
 
 **University of Southern California, Los Angeles, CA**  
 *M.S. in Computer Science* — Dec 2015
@@ -58,7 +58,7 @@ Interest areas are in advancing private, local, on-device AI.
 
 ---
 
-## PROJECTS & CONTRIBUTIONS
+## Projects & Open-Source Contributions
 
 - **MLX Contributions:** Added Moore-Penrose inverse to `mlx.core.linalg.pinv`  
   - PRs: [mlx#875](https://github.com/ml-explore/mlx/pull/875), [mlx-examples#483](https://github.com/ml-explore/mlx-examples/pull/483)
