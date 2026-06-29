@@ -1,6 +1,6 @@
 # Aditya Dhulipala
 
-213-807-4043 |  adi@dhulipala.xyz |  [GitHub](https://github.com/adi-dhulipala) |  [LinkedIn](https://www.linkedin.com/in/adityadhulipala) |  Cupertino, CA
+213-807-4043 |  adi@dhulipala.xyz |  [github.com/adi-dhulipala](https://github.com/adi-dhulipala) |  [linkedin.com/in/adityadhulipala](https://www.linkedin.com/in/adityadhulipala) |  Cupertino, CA
 
 ---
 
