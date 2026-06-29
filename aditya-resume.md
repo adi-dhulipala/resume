@@ -6,7 +6,9 @@
 
 ## SUMMARY
 
-ML & Software Engineer with deep expertise in speech and language systems on Apple platforms. Specializes in post-training of small, on-device models — on-policy distillation (OPD), rejection-sampling fine-tuning (RSFT), and reinforcement learning — under tight compute, power, and data constraints. Contributor to Apple's open-source ecosystem and passionate about advancing private, local, on-device AI.
+ML & Software Engineer with deep expertise in speech and language systems on Apple platforms.  Specializes in post-training of small, on-device models — on-policy distillation (OPD), rejection-sampling fine-tuning (RSFT), and reinforcement learning.
+
+Interest areas are in advancing private, local, on-device AI.
 
 ---
 
