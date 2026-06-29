@@ -6,7 +6,7 @@
 
 ## SUMMARY
 
-Senior Machine Learning Engineer with deep expertise in speech and language systems on Apple platforms. Specializes in post-training of small, on-device models — on-policy distillation (OPD), rejection-sampling fine-tuning (RSFT), and reinforcement learning — under tight compute, power, and data constraints. Proven experience leading cross-functional efforts and building end-to-end training and evaluation infrastructure. Skilled in MLX, Swift, PyTorch, and on-device ML. Contributor to Apple's open-source ecosystem and passionate about advancing model deployment, privacy, and edge intelligence.
+ML & Software Engineer with deep expertise in speech and language systems on Apple platforms. Specializes in post-training of small, on-device models — on-policy distillation (OPD), rejection-sampling fine-tuning (RSFT), and reinforcement learning — under tight compute, power, and data constraints. Contributor to Apple's open-source ecosystem and passionate about advancing private, local, on-device AI.
 
 ---
 
