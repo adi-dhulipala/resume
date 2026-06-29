@@ -1,12 +1,12 @@
 # Aditya Dhulipala
 
-213-807-4043 |  adi@dhulipala.xyz |  [GitHub](https://github.com/adhulipa) |  [LinkedIn](https://www.linkedin.com/in/adityadhulipala) |  Cupertino, CA
+213-807-4043 |  adi@dhulipala.xyz |  [GitHub](https://github.com/adi-dhulipala) |  [LinkedIn](https://www.linkedin.com/in/adityadhulipala) |  Cupertino, CA
 
 ---
 
 ## SUMMARY
 
-Senior Machine Learning Engineer with deep expertise in speech and language systems on Apple platforms. Proven experience leading teams in resource-constrained environments — whether compute, power, or data limited. Skilled in MLX, Swift, PyTorch, and on-device ML. Contributor to Apple’s open-source ecosystem and passionate about advancing model deployment, privacy, and edge intelligence.
+Senior Machine Learning Engineer with deep expertise in speech and language systems on Apple platforms. Specializes in post-training of small, on-device models — on-policy distillation (OPD), rejection-sampling fine-tuning (RSFT), and reinforcement learning — under tight compute, power, and data constraints. Proven experience leading cross-functional efforts and building end-to-end training and evaluation infrastructure. Skilled in MLX, Swift, PyTorch, and on-device ML. Contributor to Apple's open-source ecosystem and passionate about advancing model deployment, privacy, and edge intelligence.
 
 ---
 
@@ -16,12 +16,20 @@ Senior Machine Learning Engineer with deep expertise in speech and language syst
 **Cupertino, CA**  
 **Jul 2019 – Present**
 
+#### Siri AI (2024-2026) (current)
+- Built an end-to-end **on-policy distillation (OPD) post-training pipeline** for Siri's on-device planner and across model families (Gemma 4, AFM) — datagen → rejection-sampling fine-tuning (RSFT) → reverse-KL distillation of 31B-class teachers into compact ~2–3B on-device students.
+- Owner of the **on-device planner model in app use tool calling** — drove model training and quality end-to-end, from training-data curation (~15M tokens) and fine-tuning through large-scale evaluation.
+- Engineer #1 on Apple OS simulation framework for computer-use assistant, model fine-tuning infra. Simulator used in experiments for LoRA training, RL, OPD, State-space models pre-training etc. 
+- Designed **Rejection-Sampling Fine-Tuning (RSFT)** data pipelines for the on-device planner, generating high-quality SFT targets from teacher rollouts filtered by correctness, recovering capability lost to catastrophic forgetting.
+- Contributed to **reinforcement-learning experiments strengthening math/arithmetic operations** in Siri's on-device planner, after identifying that it underperformed on clock, alarm, and timer arithmetic (e.g. "set a timer for 5 minutes from now"); built RL environments with verifiable rewards to train and evaluate the fix.
+- Authored the team's first **mechanistic-interpretability tooling** (logprob + activation probes) for the on-device planner, predicting and explaining tool-call failures: failing calls carry ~4× higher token entropy, with a probe predicting failure at 82% accuracy.
+
+#### Siri Speech & NLP (2019-2024)
 - Improved Siri's intent routing to ChatGPT & Personal Search using synthetic data generation; boosted accuracy from 60% to 95%.
-- Led on-device migration of Siri’s conversational domains with a cross-functional team of 3.
+- Led on-device migration of Siri's conversational domains with a cross-functional team of 3.
 - Compressed 300MB of user data to 20MB via hash table optimization, enabling "Listen for Hey Siri" on a billion devices.
 - Tuned A100 cluster training: reduced model variance from 10% to <0.02% via hyperparameter tuning.
-- Mentored new engineers and PMs across the Siri language platform.
-- Contributed extensively to Apple’s MLX framework and built open-source examples for on-device transformers.
+- Contributed to Apple's MLX framework.
 
 ### Amazon — Software Development Engineer  
 **Seattle, WA**  
@@ -50,7 +58,7 @@ Senior Machine Learning Engineer with deep expertise in speech and language syst
 
 ## TECHNICAL SKILLS
 
-- **ML - Modeling & Infra:** Speech Recognition, Language Modeling, On-device ML, Model Quantization, MLX, PyTorch, ElasticSearch, DynamoDB 
+- **ML – Modeling & Infra:** Speech Recognition, Language Modeling, On-device ML, Post-Training (RSFT, On-Policy Distillation), Reinforcement Learning & RL Environments, Knowledge Distillation, LoRA, Model Quantization, Distributed Training, MLX, PyTorch, vLLM, ElasticSearch, DynamoDB
 - **Programming:** Python, Swift, Objective-C, C++, MATLAB  
 
 ---
