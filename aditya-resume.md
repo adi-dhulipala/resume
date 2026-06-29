@@ -58,13 +58,6 @@ Interest areas are in advancing private, local, on-device AI.
 
 ---
 
-## TECHNICAL SKILLS
-
-- **ML – Modeling & Infra:** Speech Recognition, Language Modeling, On-device ML, Post-Training (RSFT, On-Policy Distillation), Reinforcement Learning & RL Environments, Knowledge Distillation, LoRA, Model Quantization, Distributed Training, MLX, PyTorch, vLLM, ElasticSearch, DynamoDB
-- **Programming:** Python, Swift, Objective-C, C++, MATLAB  
-
----
-
 ## PROJECTS & CONTRIBUTIONS
 
 - **MLX Contributions:** Added Moore-Penrose inverse to `mlx.core.linalg.pinv`  
