@@ -19,11 +19,10 @@ Interest areas are in advancing private, local, on-device AI.
 **Jul 2019 – Present**
 
 #### Siri AI (2024-2026) (current)
-- Built an end-to-end **on-policy distillation (OPD) post-training pipeline** for Siri's on-device planner and across model families (Gemma 4, AFM) — datagen → rejection-sampling fine-tuning (RSFT) → reverse-KL distillation of 31B-class teachers into compact ~2–3B on-device students.
+- Built an end-to-end **on-policy distillation (OPD) post-training pipeline** for Siri's on-device planner and across model families — datagen → rejection-sampling fine-tuning (RSFT) → reverse-KL distillation of 31B-class teachers into compact ~2–3B on-device students.
 - Owner of the **on-device planner model in app use tool calling** — drove model training and quality end-to-end, from training-data curation (~15M tokens) and fine-tuning through large-scale evaluation.
-- Engineer #1 on Apple OS simulation framework for computer-use assistant, model fine-tuning infra. Simulator used in experiments for LoRA training, RL, OPD, State-space models pre-training etc. 
+- Engineered Apple OS simulation framework for computer-use assistant & model fine-tuning infrastructure. Simulator used in experiments for LoRA training, RL, OPD, State-space models pre-training. 
 - Designed **Rejection-Sampling Fine-Tuning (RSFT)** data pipelines for the on-device planner, generating high-quality SFT targets from teacher rollouts filtered by correctness, recovering capability lost to catastrophic forgetting.
-- Contributed to **reinforcement-learning experiments strengthening math/arithmetic operations** in Siri's on-device planner, after identifying that it underperformed on clock, alarm, and timer arithmetic (e.g. "set a timer for 5 minutes from now"); built RL environments with verifiable rewards to train and evaluate the fix.
 - Authored the team's first **mechanistic-interpretability tooling** (logprob + activation probes) for the on-device planner, predicting and explaining tool-call failures: failing calls carry ~4× higher token entropy, with a probe predicting failure at 82% accuracy.
 
 #### Siri Speech & NLP (2019-2024)
